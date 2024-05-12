@@ -11,7 +11,6 @@ First open your cmd prompt with control + shift + '
 Next, input your python path followed by setup.py. An example of this would be:
 
 <code>python setup.py</code>
-
 Note: the above code assumes you have your python path in your PATH variables. 
 
 Let this run and it will set up all the needed directories, packages, and files.
@@ -21,6 +20,7 @@ Once this is done, open the jupyter notebook called 'Analysis.ipynb'
 I advise having the jupyter notebook extension installed into your VSCode instance.
 
 Next, hit control + shift + p and type 'Notebook: Select Notebook Kernel'.
+Note: the above command must be run wheil tabbed into the notebook.
 
 Navigate to the .venv that has been made and select this.
 
